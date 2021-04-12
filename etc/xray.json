@@ -27,7 +27,7 @@
             "streamSettings": {"security": "none","network": "domainsocket","dsSettings": {"path": "apath","abstract": true}}
         },
         {   "port": 5234,"listen": "127.0.0.1","protocol": "socks",
-            "settings": {"auth": "password","accounts": [{"user": "$AUUID","pass": "$AUUID"}]},
+            "settings": {"auth": "noauth","udp": false},
             "streamSettings": {"network": "ws","wsSettings": {"path": "/$AUUID-socks"}}
         }
     ],
